@@ -4,7 +4,6 @@ import numpy as np
 import altair as alt
 
 st.subheader(f"Welcome to Retirement Planning Simulator")
-st.write("by datatipsy")
 
 with st.form(key='columns_in_form'):
     c1, c2, c3 = st.columns(3)
